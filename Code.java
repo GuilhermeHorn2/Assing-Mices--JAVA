@@ -27,7 +27,7 @@ public class main_misc2 {
 			while(v[l] <= p && l < r) {
 				l++;
 			}
-			while(v[l] >= p && l < r) {
+			while(v[r] >= p && l < r) {
 				r--;
 			}
 			swap(v,l,r);
